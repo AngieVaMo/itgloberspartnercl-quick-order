@@ -58,10 +58,8 @@ Then just declare the custom component by typing the interface property name in 
 
 
 ## Dependencies
-1. "vtex.native-types": "0.x",
-2. "vtex.list-context": "0.x",
-3. "vtex.device-detector": "0.x",
-4. "vtex.css-handles": "0.x"
+1. "vtex.checkout-graphql": "0.x",
+2. "vtex.search-graphql": "0.x"
 
 
 `Note`: If your custom app doesn't render to the store even though the terminal doesn't throw any errors, unlink the store and `link it again` making sure the custom app is linked first.
